@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("Grid_system.css");
+@import url("all.css");
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Fleur+De+Leah&display=swap');
+
+/*.f-bricolage-grotesque {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;  
+  font-style: normal;
+}*/
+.f-fleur-de-leah-regular {
+  font-family: "Fleur De Leah", cursive;
+  font-weight: 400;
+  font-style: normal;	font-size: 1.5rem
+
+}
+.font-kyten
+{
+	font-family: chuky;
+}
+body
+{
+/*	background-color:#E1E1E1;*/
+	color: #2F2E2E;
+	font-family: "Bricolage Grotesque",Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	margin: 0
+	
+}
+h1,h2,h3,h4,.menu
+{
+	
+	display: block;
+	color: #333
+}
+.font-ma{font-family: 'Scary Halloween Font'}
+.menu ul
+{
+	margin: 0;
+	padding: 0; 
+	list-style: none
+}
+.menu ul li
+{
+	display: inline-block ;/* day cac list len canh nhau chung 1 hang*/
+	position: relative/* cho dt con dung dien tich cua minh de dinh vi tri*/
+}
+.menu ul li a
+{
+	background-color:#FFCE00;
+	background-image: linear-gradient(15deg,#FFCE00,#cccc00);
+	padding: 8px 16px;
+	color:black;display: block;
+	text-decoration:none /*bo gach chan underline*/
+}
+.menu ul li a:hover{
+	background-color: #FFE500
+}
+.menu ul ul
+{
+	position: absolute;
+	left: 0; top: 100%;
+	background-color:#FFCE00;
+	width: 200px;
+	display: none
+}
+.menu ul ul li
+{
+	display: block;
+	border-bottom: 1px solid #391919
+	
+}
+
+.menu ul li:hover> ul
+{
+	display: block
+}
+.menu
+{ 
+	border-bottom: thin solid;
+	display: flex;
+	justify-content: space-between
+}
+
+h1
+{
+	background: #121FCF;
+background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+h4{color: #007DFF}
+h2{color: #0038FF}
+
+
+
+
+
+
+
+
